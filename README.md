@@ -1,7 +1,7 @@
 # EGG 🐣: Emergence of lanGuage in Games
 
 ![GitHub](https://img.shields.io/github/license/facebookresearch/EGG)
-[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
+[![Python 3.9](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/release/python-390/)
 
 ## Introduction
 
@@ -64,12 +64,12 @@ EGG supports Reinforce and Gumbel-Softmax optimization of the *communication cha
 
 ## Installing EGG
 
-Generally, we assume that you use PyTorch 1.1.0 or newer and Python 3.6 or newer. 
+Generally, we assume that you use PyTorch 1.12.1 or newer and Python 3.9 or newer. 
 
  1. (optional) It is a good idea to develop in a new conda environment, e.g. like this:
     ```
-    conda create --name egg36 python=3.6
-    conda activate egg36
+    conda create --name egg39 python=3.9
+    conda activate egg39
     ```
  2. EGG can be installed as a package to be used as a library
     ```

@@ -1,4 +1,4 @@
-torch>=1.1.0
+torch>=1.12.1
 torchvision
 scipy
 numpy
@@ -9,3 +9,5 @@ rich
 scikit-learn
 wandb
 submitit
+tensorboard
+cudatoolkit==11.3.1
